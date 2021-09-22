@@ -1,1 +1,1 @@
-https://alejandrosrz11.github.io/shop-animate
+https://alejandrosrz11.github.io/shop-animated
