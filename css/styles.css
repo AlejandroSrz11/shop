@@ -83,10 +83,11 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: rgba(231, 229, 146, .5);
+  background-color: #fffffe;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 hr {
   margin: 1rem 0;
@@ -3011,7 +3012,7 @@ textarea.form-control-lg {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #ff8e3c;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -3039,7 +3040,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
+  color: #ff8e3c;
   background-color: #0a58ca;
   border-color: #0a53be;
 }
@@ -3047,13 +3048,13 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
-  color: #fff;
+  color: #ff8e3c;
   background-color: #0d6efd;
   border-color: #0d6efd;
 }
 
 .btn-secondary {
-  color: #fff;
+  color: #ff8e3c;
   background-color: #6c757d;
   border-color: #6c757d;
 }
@@ -3443,15 +3444,15 @@ textarea.form-control-lg {
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #212529;
+  background-color: #ffd803;
   border-color: #212529;
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
   box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
 }
 .btn-check:checked + .btn-outline-dark, .btn-check:active + .btn-outline-dark, .btn-outline-dark:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
-  color: #fff;
-  background-color: #212529;
+  color: #272343;
+  background-color: #ffd803;
   border-color: #212529;
 }
 .btn-check:checked + .btn-outline-dark:focus, .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
@@ -3459,7 +3460,7 @@ textarea.form-control-lg {
 }
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
   color: #212529;
-  background-color: transparent;
+  background-color: #ffd803;
 }
 
 .btn-link {
@@ -7829,7 +7830,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgb(61, 71, 42) !important;
+  background-color: #272343 !important;
 }
 
 .bg-black {
@@ -11272,4 +11273,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+  
+}
+.sticky1{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
