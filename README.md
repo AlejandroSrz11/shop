@@ -1,1 +1,1 @@
-https://alejandrosrz11.github.io/shoppingg
+https://alejandrosrz11.github.io/shop-home
